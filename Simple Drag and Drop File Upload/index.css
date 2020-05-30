@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 .drop-zone {
     max-width: 200px;
     height: 200px;
@@ -13,6 +21,7 @@
     color: #cccccc;
     border: 4px dashed #009578;
     border-radius: 10px;
+    margin: 10px;
 }
 
 .drop-zone--over {
